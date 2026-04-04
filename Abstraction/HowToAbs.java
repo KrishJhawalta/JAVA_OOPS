@@ -20,6 +20,11 @@ abstract class funk extends base{
 }
 
 class classy extends base{
+    @Override
+    void greet() {
+        System.out.println("Namaste!");
+    }
+
     public void greet1(){
         System.out.println("I am greet");
     }

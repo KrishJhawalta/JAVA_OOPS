@@ -2,8 +2,6 @@ package Abstraction;
 
 abstract class mobiles{
 
-
-
     mobiles(){
         System.out.println("Constructor of mobiles");
     }
@@ -13,7 +11,7 @@ abstract class mobiles{
 
 }
 
-abstract class Samsung extends mobiles{
+class Samsung extends mobiles{
 
     @Override
     void call(){
@@ -32,7 +30,6 @@ public class Abstraction{
         Samsung s1 = new Samsung();    // object of extended new class
         s1.message();
         
-        d;
         
     }
 
