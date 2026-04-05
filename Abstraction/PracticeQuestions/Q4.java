@@ -8,6 +8,8 @@ abstract class Telephone{
 
 }
 class SmartTelephone extends Telephone{
+
+    // Overriding used
     @Override
     void ring(){
         System.out.println("Ringing");
@@ -25,6 +27,10 @@ class SmartTelephone extends Telephone{
 
 public class Q4 {
     static void main(String[] args) {
+        SmartTelephone st = new SmartTelephone();
+        st.ring();
+        st.liftin();
+        st.disconnect();
 
     }
 }
