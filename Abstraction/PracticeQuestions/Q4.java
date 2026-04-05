@@ -27,7 +27,7 @@ class SmartTelephone extends Telephone{
 
 public class Q4 {
    public static void main(String[] args) {
-        SmartTelephone st = new SmartTelephone();
+        Telephone st = new SmartTelephone();
         st.ring();
         st.liftin();
         st.disconnect();
