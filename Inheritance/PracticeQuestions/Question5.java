@@ -14,12 +14,15 @@ class child extends krish{
         System.out.println("i am in child");
     }
     child(int a,int b){
-        System.out.println("i am in overloaded constr");
+        super(a);
+        System.out.println("i am in overloaded constructor :" + b);
     }
 }
 
 public class Question5 {
     public static void main(String[] args) {
+        child c = new child();
+        //child c = new child(2,4);
 
     }
 }
