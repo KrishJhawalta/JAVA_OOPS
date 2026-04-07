@@ -1,3 +1,4 @@
+// for super keyword
 package Inheritance;
 class employee{
     int id;
