@@ -9,23 +9,21 @@ class Monkey{
     }
 }
 
-class Human{
+class Human extends Monkey{
+    @Override
     void jump(){
         System.out.println("Human Jumps");
     }
+    @Override
     void bite(){
         System.out.println("Human bites");
     }
 }
 public class Q5 {
     public static void main(String[] args) {
-        Monkey o1 = new Monkey();
-        Human h1= new Human();
-        o1.jump();
+        Monkey o1 = new Human();
         o1.bite();
-        h1.bite();
-        h1.jump();
-
+        o1.jump();
 
 
 
