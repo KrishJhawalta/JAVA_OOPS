@@ -21,8 +21,8 @@ class child extends krish{
 
 public class Question5 {
     public static void main(String[] args) {
+        //child c = new child();
         child c = new child();
-        //child c = new child(2,4);
 
     }
 }
