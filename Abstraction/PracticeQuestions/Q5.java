@@ -23,6 +23,8 @@ public class Q5 {
         Human h1= new Human();
         o1.jump();
         o1.bite();
+        h1.bite();
+        h1.jump();
 
 
 
