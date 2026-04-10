@@ -8,7 +8,7 @@ class Rectangle{
         length = l;
         width = w;
     }
-
+//getter and setter
     public int getLength(){
         return length;
     }
