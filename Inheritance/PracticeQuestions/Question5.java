@@ -1,6 +1,6 @@
 package Inheritance.PracticeQuestions;
 class krish{
-    krish(){
+    krish(){ //constructor
         System.out.println("i am krish");
     }
     krish(int a){
