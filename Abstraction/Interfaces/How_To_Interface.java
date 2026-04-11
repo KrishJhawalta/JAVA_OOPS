@@ -1,10 +1,6 @@
 package Abstraction.Interfaces;
 
 
-class Animal{
-
-
-}
 
 public class How_To_Interface {
     public static void main(String[]args) {
