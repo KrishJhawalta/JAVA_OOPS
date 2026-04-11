@@ -2,16 +2,23 @@ package Abstraction.PracticeQuestions;
 interface TvRemote{
     void Buttons();
 }
-class SmartRemote implements TvRemote {
+interface SmartTVRemote extends TvRemote{
+    void voiceFeature();
+}
+class Tv implements SmartTVRemote{       // accessing interface 1
     public void Buttons(){
-        System.out.println("All working");
+        System.out.println("Click click! Working");
+    }
+    public void voiceFeature(){
+        System.out.println("Voice Assistant");
     }
 }
 
 public class Q6 {
     static void main(String[] args) {
-        SmartRemote s1 = new SmartRemote();
-        s1.Buttons();
+        Tv t1 = new t1();
+        t1.Buttons();
+        t1.voiceFeature();
 
     }
 }
