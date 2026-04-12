@@ -16,7 +16,7 @@ class Tv implements SmartTVRemote{       // accessing interface 1
 
 public class Q6 {
     static void main(String[] args) {
-        Tv t1 = new t1();
+        Tv t1 = new Tv();
         t1.Buttons();
         t1.voiceFeature();
 
