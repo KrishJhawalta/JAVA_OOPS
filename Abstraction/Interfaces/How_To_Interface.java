@@ -1,6 +1,6 @@
 package Abstraction.Interfaces;
 
-interface Animal{
+interface Animal{  // interface
     void Sound();
 }
 class Dog implements Animal{      // accessing interface using (implements) method
