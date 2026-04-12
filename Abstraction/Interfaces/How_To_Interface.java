@@ -3,7 +3,7 @@ package Abstraction.Interfaces;
 interface Animal{
     void Sound();
 }
-class Dog implements Animal{
+class Dog implements Animal{      // accessing interface using (implements) method
    public void Sound(){
         System.out.println("Barkk");
     }
