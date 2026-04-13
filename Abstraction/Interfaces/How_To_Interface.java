@@ -1,5 +1,6 @@
 package Abstraction.Interfaces;
 
+// interface
 interface Animal{  // interface
     void Sound();
 }
@@ -14,7 +15,7 @@ public class How_To_Interface {
         // What is an interface?
         //:It is a blueprint that contains the name of methods having (empty body).
         Dog d1 = new Dog();
-        d1.Sound();
+        d1.Sound();     // objects
 
 
 
