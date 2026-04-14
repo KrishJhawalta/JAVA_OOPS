@@ -7,6 +7,10 @@ interface Bicycle{
 }
 
 class KJCycles implements Bicycle{
+
+    void playHorn{
+        System.out.println("Ting! Ting!");
+    }
     public void ApplyBrakes(){
         System.out.println("Bicycles ");
     }
