@@ -1,7 +1,8 @@
 package Abstraction.PracticeQuestions;
 
+// interface
 interface Bicycle{
-    void ApplyBrakes();
+    void ApplyBrakes();    /// functions
     void ApplyAccelerator();
 }
 
@@ -11,7 +12,7 @@ class KJCycles implements Bicycle{
     }
 
     public void ApplyAccelerator(){
-        System.out.println("Speeping up");
+        System.out.println("Speeding up");
 
     }
 }
@@ -19,6 +20,9 @@ class KJCycles implements Bicycle{
 
 public class Q9 {
    public static void main(String[] args) {
+       KJCycles k1 = new KJCycles();
+       k1.ApplyAccelerator();
+       k1.ApplyBrakes();
 
 
     }
