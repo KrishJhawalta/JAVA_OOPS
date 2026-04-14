@@ -20,7 +20,7 @@ class KJCycles implements Bicycle{
 
 public class Q9 {
    public static void main(String[] args) {
-       KJCycles k1 = new KJCycles();
+       KJCycles k1 = new KJCycles(); // Objects
        k1.ApplyAccelerator();
        k1.ApplyBrakes();
 
