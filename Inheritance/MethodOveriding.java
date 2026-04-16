@@ -26,7 +26,7 @@ public class MethodOveriding{
          a.meth();
          a.meth2();
 
-         B b = new B();  // objects of claass B
+         B b = new B();  // objects of claas B
          b.meth2();
          b.meth3();
 
