@@ -22,7 +22,7 @@ class B extends A{
 }
 public class MethodOveriding{
     public static void main(String[] args) {
-         A a = new A();
+         A a = new A(); // objects of class A
          a.meth();
          a.meth2();
 
