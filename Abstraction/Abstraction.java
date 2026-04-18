@@ -1,6 +1,6 @@
 package Abstraction;
 
-abstract class mobiles{
+abstract class mobiles{ //  abstract class
 
     mobiles(){
         System.out.println("Constructor of mobiles");
