@@ -6,7 +6,7 @@ abstract class mobiles{
         System.out.println("Constructor of mobiles");
     }
 
-    abstract void call();   // abstract method
+    abstract void call();   // abstract methods
     abstract void message();
 
 }
@@ -15,7 +15,7 @@ class Samsung extends mobiles{
 
     @Override
     void call(){
-        System.out.println("Calling samsung");  // method overrride
+        System.out.println("Calling samsung");  // method overrriding
     }
 
     @Override                      
