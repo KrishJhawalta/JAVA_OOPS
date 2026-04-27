@@ -56,6 +56,12 @@ public class star {
           }
 */
 
+     /*   Pattern 4:
+        54321
+        4321
+        321
+        21
+        1
         int num=5;
        for(int i=5; i>=0; i--){
            for(int j=1; j<=i; j++){
@@ -64,7 +70,7 @@ public class star {
            }
            System.out.println(); //
        }
-
+*/
 
 
 }}
