@@ -62,7 +62,7 @@ public class star {
                System.out.print(num);
                num--;
            }
-           System.out.println();
+           System.out.println(); //
        }
 
 
