@@ -56,8 +56,15 @@ public class star {
           }
 */
 
-        int [] arr = {1,2,3,4,5};
-        System.out.println(arr[1]);
+        int num=5;
+       for(int i=5; i>=0; i--){
+           for(int j=1; j<=i; j++){
+               System.out.print(num);
+               num--;
+           }
+           System.out.println();
+       }
+
 
 
 }}
