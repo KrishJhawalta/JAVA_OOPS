@@ -3,15 +3,5 @@ public class test{
 
      System.out.println("Hello!");
 
-      //function
-     void print(int n){
-       if(n>5) return; //condition for 5
-       System.out.println(n);
-       print(n+1);
-     }
-
-    
-  
-    
   }
 }
