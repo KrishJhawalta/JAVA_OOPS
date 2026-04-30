@@ -3,6 +3,9 @@ package PatternPrinting;
 public class star {
     public static void main(String[] args) {
 
+
+
+    // pattern printing
         /*
         Pattern 1:
         ****
