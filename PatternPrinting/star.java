@@ -3,7 +3,7 @@ package PatternPrinting;
 public class star {
     public static void main(String[] args) {
 
-
+//nothing to do feeling lost
 
     // pattern printing
         /*
