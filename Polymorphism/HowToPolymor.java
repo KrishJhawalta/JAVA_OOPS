@@ -11,13 +11,17 @@ class Animal{
 
 class Dog extends Animal{
     void sound(){
-        System.out.println("Barks");
+        System.out.println("Barks!! ");
     }
 
         }
 
 public class HowToPolymor {
     public static void main(String[] args) {
+        Animal a = new Dog();
+        a.sound();
+
+
 
 
 
