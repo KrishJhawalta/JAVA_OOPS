@@ -1,8 +1,12 @@
 package Inheritance;
 
 class testcase1 {
-    System.out.println("I am transporter");
+    void getred(){
+    System.out.println("I am transporter");}
 
+    void getred(){
+        System.out.println("Overrided");
+    }
 }
 public class testing {
    public static void main(String[] args) {
