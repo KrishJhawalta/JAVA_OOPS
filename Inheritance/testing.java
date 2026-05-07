@@ -4,7 +4,7 @@ class testcase1 {
     void getred(){
     System.out.println("I am transporter");}
 
-    void getred(){
+    void getred(){         // error due to same name without in another class
         System.out.println("Overrided");
     }
 }
