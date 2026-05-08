@@ -1,7 +1,7 @@
 package Inheritance;
 
 class testcase1 {
-    void getred(){
+    void getred(){     // this error due to sam func name
     System.out.println("I am transporter");}
 
     void getred(){         // error due to same name without in another class
@@ -14,3 +14,5 @@ public class testing {
 
     }
 }
+
+// ever breaked
