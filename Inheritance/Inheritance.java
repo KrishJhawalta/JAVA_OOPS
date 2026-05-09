@@ -1,7 +1,7 @@
 // {extends} keyword is use to inherit the superclass
 package Inheritance;
 class Animal{
-    private String name;
+    private String name;       //private variable
 
     Animal(){
         System.out.print(" I am animal");
