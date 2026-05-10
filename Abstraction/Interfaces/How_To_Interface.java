@@ -6,7 +6,7 @@ interface Animal{  // interface
 }
 class Dog implements Animal{      // accessing interface using (implements) method
    public void Sound(){
-        System.out.println("Barkk");
+        System.out.println("Bark!");
     }
 
 }
@@ -16,6 +16,8 @@ public class How_To_Interface {
         //:It is a blueprint that contains the name of methods having (empty body).
         Dog d1 = new Dog();
         d1.Sound();     // objects
+
+
 
 
 

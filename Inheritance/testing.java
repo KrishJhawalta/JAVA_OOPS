@@ -4,7 +4,7 @@ class testcase1 {
     void getred(){     // this error due to sam func name
     System.out.println("I am transporter");}
 
-    void getred(){         // error due to same name without in another class
+    void getred1(){         // error due to same name without in another class
         System.out.println("Overrided");
     }
 }
