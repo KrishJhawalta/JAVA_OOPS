@@ -93,7 +93,7 @@ public class star {
             System.out.println();
         }
 */
-
+// prime number
       int a =7;
       int count=0;
       for(int i=1; i<=a; i++) {
