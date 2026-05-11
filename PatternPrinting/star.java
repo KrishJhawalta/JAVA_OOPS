@@ -94,18 +94,18 @@ public class star {
         }
 */
 
-        int n = 129;
-        int rev = 0, temp = n;
+      int a =7;
+      int count=0;
+      for(int i=1; i<=a; i++) {
+          if (a % i == 0){
+              count++;
+          }
 
-        while(n > 0) {
-            rev = rev * 10 + n % 10;
-            n = n / 10;
-        }
-
-        if(temp == rev)
-            System.out.println("Palindrome");
-        else
-            System.out.println("Not Palindrome");
+    }
+    if(count == 2){
+        System.out.println("Prime");
+    }else{
+        System.out.println("Not prime");
     }
 
-}
+}}
