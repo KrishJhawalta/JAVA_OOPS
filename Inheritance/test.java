@@ -15,6 +15,10 @@ public class test {
                 break;
             case '-':
                 System.out.println(a-b);
+                break;
+            case '*':
+                System.out.println(a*b);
+                break;
         }
 
     }
