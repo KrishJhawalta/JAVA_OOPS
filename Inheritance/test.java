@@ -22,6 +22,11 @@ public class test {
             case '/':
                 System.out.println(a/b);
                 break;
+            case '%':
+                System.out.println(a%b);
+                break;
+            default:
+                System.out.println("Wrong choice");
         }
 
     }
