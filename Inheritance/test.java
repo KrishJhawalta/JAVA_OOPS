@@ -10,6 +10,7 @@ public class test {
         int c = sc.next().charAt(0);
 
         switch(c){    // switch statement for operators
+            //conditions
             case '+':
                 System.out.println(a+b);
                 break;
