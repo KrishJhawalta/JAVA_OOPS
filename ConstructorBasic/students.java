@@ -1,7 +1,7 @@
 package ConstructorBasic;
 
 class S{
-    int age;
+    int age;      // without constructor
     String name;
 
     S(){
