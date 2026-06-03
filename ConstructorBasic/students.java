@@ -9,6 +9,13 @@ class S{
         name = null;
 
     }
+
+    class T {
+        T(){    // constructor
+            System.out.println("I am teacher");
+
+        }
+    }
 }
 
 public class students {
