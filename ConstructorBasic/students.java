@@ -10,7 +10,7 @@ class S{
 
     }
 
-    class T {
+    class T { //Teacher class
         T(){    // constructor
             System.out.println("I am teacher");
 
