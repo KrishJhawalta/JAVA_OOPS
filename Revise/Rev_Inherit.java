@@ -40,7 +40,7 @@ public class Rev_Inherit{
 public static void main(String[]args){
 
 // TEST CLASS (SINGLE INHERITANCE)
-Over o1 = new Over();
+Test o1 = new Test();
 o1.sayHello();
 
 // VEHICLE CLASS (HYBRID INHERITANCE)
