@@ -22,7 +22,19 @@ class Bike extends Vehicle{
 void bike(){
 System.out.println("2 Wheeler");}}
 
+// Multilevel Inheritance
 
+class Smartphone{
+void phone(){
+System.out.println(" I am Phone");}}
+
+class Camera extends Smartphone{
+void camera(){
+System.out.println("Camera");}}
+
+class CameraInterface extends Camera{
+void interface(){
+System.out.println("Camera Interface");}}
 public class Rev_Inherit{
 public static void main(String[]args){
 
