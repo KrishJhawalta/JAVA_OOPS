@@ -34,13 +34,25 @@ System.out.println("Camera");}}
 
 class CameraInterface extends Camera{
 void interface(){
-System.out.println("Camera Interface");}}
+System.out.println("Camera Interface");}
+}
 public class Rev_Inherit{
 public static void main(String[]args){
 
+// TEST CLASS (SINGLE INHERITANCE)
 Over o1 = new Over();
 o1.sayHello();
 
+// VEHICLE CLASS (HYBRID INHERITANCE)
+Vehicle v1 = new Vehicle();
+v1.car();
+v1.bike();
+
+// SMARTPHONE CLASS (MULTLI-LEVEL INHERITANCE)
+Smartphone s1 = new Smartphone();
+s1.Camera();
+s1.interface();
+s1.phone();
 
 
 
