@@ -2,10 +2,9 @@ package RevisionJava;
 
 class Student{
     int name;
-    Student(){
-        name = "empty";
 
-
+    Student() {  //
+        System.out.println("Object Created");
     }
 }
 
