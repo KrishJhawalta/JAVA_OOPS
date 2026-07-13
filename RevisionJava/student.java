@@ -3,7 +3,7 @@ package RevisionJava;
 class Student{
     int name;
 
-    Student() {  //
+    Student() {  // constructor created
         System.out.println("Object Created");
     }
 }
