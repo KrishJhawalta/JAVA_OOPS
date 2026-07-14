@@ -17,7 +17,6 @@ class Animal{
 }
 
 class Dog extends Animal{
-    @Override
     static void sound(){
         System.out.println("Dog barks");
     }
@@ -27,8 +26,8 @@ public class polymorphism{
 
         Calculator.add(55,22);
         Calculator.add(55,22,33);
-        Subtraction.sub(55,22);
-        Subtraction.sub(55,22,33);
+        Animal.sound();
+        Dog.sound();
 
 
 
