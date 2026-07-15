@@ -10,6 +10,8 @@ class Calculator{
     }
 }
 
+
+ //method overriding
 class Animal{
     static void sound(){
         System.out.println("Animal makes a sound");
