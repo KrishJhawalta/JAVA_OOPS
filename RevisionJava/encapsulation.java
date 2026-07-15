@@ -22,6 +22,7 @@ class Student{
 
 public class encapsulation {
     public static void main(String[] args) {
+        //objects
 
         Student s1 = new Student();
         s1.setName("Krish");
