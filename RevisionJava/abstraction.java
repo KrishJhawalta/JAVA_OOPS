@@ -5,7 +5,6 @@ abstract class car{
     void horn(){
         System.out.println("Beep! Beep!");
     }
-    
 }
 
 
@@ -13,6 +12,9 @@ abstract class car{
 public class abstraction {
     public static void main(String[] args) {
         
+        car c = new car();
+        c.start();
+        c.horn();
     }
     
 }
