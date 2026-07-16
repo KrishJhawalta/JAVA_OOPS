@@ -6,13 +6,19 @@ abstract class car{
         System.out.println("Beep! Beep!");
     }
 }
+class Toyota extends car{
+    @Override
+    void start(){
+        System.out.println("Toyota car started");
+    }
+}
 
 
 
 public class abstraction {
     public static void main(String[] args) {
         
-        car c = new car();
+        Toyota c = new Toyota();
         c.start();
         c.horn();
     }
