@@ -6,15 +6,30 @@ abstract class Animal{
     }}
 
 class Dog extends Animal{
+    @Override
     void sound(){
         System.out.println("Dog barks");
     }
 }
 
+class Cat extends Animal{
+    @Override
+    void sound(){
+        System.out.println("Cat meows");
+    }
+}
+
 public class abstraction{
     public static void main(String[] args) {
-        Dog d = new Dog();
-        d.sound();
-        d.eat();
+        Animal a = new Dog();
+        Animal a2 = new Cat();
+        a.sound();
+        a.eat();
+        a2.sound();
+        a2.eat();
+        
+       
+      
+       
     }
 }
