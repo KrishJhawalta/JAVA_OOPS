@@ -21,10 +21,11 @@ class Cat extends Animal{
 
 public class abstraction{
     public static void main(String[] args) {
-        Animal a = new Dog();
+        Animal a1 = new Dog();
         Animal a2 = new Cat();
-        a.sound();
-        a.eat();
+
+        a1.sound();
+        a1.eat();
         a2.sound();
         a2.eat();
         
