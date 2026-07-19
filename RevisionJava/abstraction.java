@@ -1,26 +1,20 @@
-abstract class car{
+abstract class Animal{
+    abstract void sound();
 
-    abstract void start();
+    void eat(){
+        System.out.println("Animal is eating");
+    }}
 
-    void horn(){
-        System.out.println("Beep! Beep!");
+class Dog extends Animal{
+    void sound(){
+        System.out.println("Dog barks");
     }
 }
-class Toyota extends car{
-    @Override
-    void start(){
-        System.out.println("Toyota car started");
-    }
-}
 
-
-
-public class abstraction {
+public class abstraction{
     public static void main(String[] args) {
-        
-        Toyota c = new Toyota();
-        c.start();
-        c.horn();
+        Dog d = new Dog();
+        d.sound();
+        d.eat();
     }
-    
 }
