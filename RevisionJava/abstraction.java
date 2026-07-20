@@ -1,4 +1,4 @@
-abstract class Animal{
+abstract class Animal{     //abstract class
     abstract void sound();
 
     void eat(){
