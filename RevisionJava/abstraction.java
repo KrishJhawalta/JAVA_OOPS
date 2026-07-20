@@ -29,7 +29,10 @@ public class abstraction{
         a2.sound();
         a2.eat();
         
-       
+       // output will be
+       // Dog barks
+         // Animal is eating
+         // Cat meows
       
        
     }
