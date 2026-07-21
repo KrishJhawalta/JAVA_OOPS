@@ -5,7 +5,7 @@ class S{
     String name;
     int rollno;
 
-    S(){
+    S(){     // constructor created 
         age = 0;
         name = null;
         rollno = 0;
