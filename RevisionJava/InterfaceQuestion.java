@@ -9,10 +9,20 @@ class UPI implements payment{
     }
 }
 
+class creditcard implements payment{
+    @Override
+    public void pay(){
+        System.out.println("Payment done using credit card");
+    }
+}
+
 public class InterfaceQuestion {
     public static void main(String[] args) {
         UPI u = new UPI();
+        creditcard c = new creditcard();
         u.pay();
+        c.pay();
+
         
     }
     
