@@ -11,6 +11,8 @@ class UPI implements payment{
 
 public class InterfaceQuestion {
     public static void main(String[] args) {
+        UPI u = new UPI();
+        u.pay();
         
     }
     
