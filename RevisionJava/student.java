@@ -4,7 +4,7 @@ class Student{
     Student() {  // constructor created
         System.out.println("Constructor of student class");
     }
-
+//function
     void display() {
         System.out.println("Name of student is: " + name);
     }
