@@ -21,6 +21,11 @@ int[][] matrix = {
     {7, 8, 9}
 }; 
 
+int[][] jagged = new int[3][]; // Define rows only
+jagged[0] = new int[2];        // Row 0 has 2 columns
+jagged[1] = new int[4];        // Row 1 has 4 columns
+jagged[2] = new int[1];        // Row 2 has 1 column
+
    
    
    
