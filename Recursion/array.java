@@ -14,6 +14,7 @@ public class array {
         // Method 1: Declare and allocate memory (values default to 0 for int)
 int[][] matrix = new int[3][4]; // 3 rows and 4 columns
 
+
 // Method 2: Declare and initialize with values immediately
 int[][] matrix = {
     {1, 2, 3},
@@ -21,6 +22,7 @@ int[][] matrix = {
     {7, 8, 9}
 }; 
 
+// access 
 int[][] jagged = new int[3][]; // Define rows only
 jagged[0] = new int[2];        // Row 0 has 2 columns
 jagged[1] = new int[4];        // Row 1 has 4 columns
